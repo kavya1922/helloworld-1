@@ -22,7 +22,7 @@ pipeline {
 stages {
     stage('Git checkout'){
       steps {
-        git branch: '${Branch}',
+        git branch: 'main',
         url: 'https://github.com/chinni4321/helloworld.git'
       }
     }
